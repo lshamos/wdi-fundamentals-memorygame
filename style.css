@@ -1,8 +1,12 @@
-style.css
 
-h1
-{
-    font-family: Raleway, sans-serif;
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
     color: #0d2c40;
     letter-spacing: 1px;
     font-weight: 400;
@@ -11,9 +15,8 @@ h1
     margin: 0;
 }
  
-h2, h3
-{
-	font-family: Raleway, sans-serif;
+ h2, h3 {
+	font-family: "Raleway", sans-serif;
 	color: #0d2c40;
 	letter-spacing: 1px;
 	font-weight: 600;
@@ -21,17 +24,12 @@ h2, h3
 	text-transform: uppercase;
 }
 
-
-body {
-    text-align: center;
-    margin: 0;
-}
-
-p {
+ p {
   font-family: "Droid Serif", serif;
   line-height: 26px;
   font-size: 18px;
 }
+
 
 a {
 	font-family: "Raleway", sans-serif;
@@ -44,12 +42,11 @@ a {
 	border-bottom: 2px solid transparent;
 }
 
-header 
-{
+
+header {
 	background-color: #F15B31;
 	padding: 30px 20px;
 }
-
 
 nav {
 	background-color: #00A6B3;
@@ -65,6 +62,7 @@ main {
 img {
 	margin: 40px 8px 0px;
 }
+
 footer {
 	text-transform: uppercase;
 	padding: 0px 20px;
@@ -74,6 +72,7 @@ footer {
 	letter-spacing: .08em;
 	font-weight: 500;
 }
+
 .copyright {
 font-family: 'Raleway', sans-serif;
 float: left;
